@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  background-color: lavender;
+}
+
+header,footer {
+  text-align: center;
+  background-color:midnightblue;
+  width: 100%;
+  padding: 10px;
+  margin: 0px;
+  color: white;
+  box-sizing: border-box;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+}
+.contenedor-discos {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  opacity: 0.6;
+  border: 10px solid black;
+  border-radius: 25px;
+  margin: 25px;
+}
+
+.contenedor-discos:hover {
+  opacity: 1;
+  background-color: antiquewhite;
+  box-shadow: 5px 5px 5px #888;
+  top: -5px;
+  left: -5px;
+}
+.disco-tapa {
+    object-fit: fill;
+    width: 500px;
+    height: 60%;
+}
+
